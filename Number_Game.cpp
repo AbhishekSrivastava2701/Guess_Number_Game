@@ -14,9 +14,9 @@ int main()
 
     while (guess != randomNumber) {
         if (guess < randomNumber) {
-            cout << "Too low. Guess again: ";
+            cout << "Too low Guess. Guess again: ";
         } else {
-            cout << "Too high. Guess again: ";
+            cout << "Too high Guess. Guess again: ";
         }
         cin >> guess;
     }
