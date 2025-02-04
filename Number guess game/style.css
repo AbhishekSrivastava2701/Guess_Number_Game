@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    border: 10px solid #1a1c1a;
+    border-radius: 50px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.game-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 4px 4px 8px rgba(139, 171, 230, 0.1);
+    width: 300px;
+    /* Adjust width as necessary */
+}
+
+input {
+    padding: 10px;
+    width: 50px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ee7e7e;
+    color: white;
+}
